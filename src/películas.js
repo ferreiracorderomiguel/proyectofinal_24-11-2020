@@ -3,7 +3,15 @@ db.peliculas.drop()
 //{ Nombre: "", Director: "", Categoria: "", ActoresEstrella: ["", ""], Valoracion: , Vista: , Edad: , Fecha: new Date() },
 
 db.peliculas.insertMany([
-    { Nombre: "Cadena perpetua", Director: "Frank Darabont", Categoria: "Drama", ActoresEstrella: ["Morgan Freeman", "Tim Robbins"], Valoracion: 9.3, Vista: true, Edad:13, Fecha: new Date(1995,02,24) },
+    { Nombre: "Cadena perpetua",
+     Director: "Frank Darabont", 
+     Categoria: "Drama", 
+     ActoresEstrella: ["Morgan Freeman", "Tim Robbins"], 
+     Valoracion: 9.3, 
+     Vista: true, 
+     Edad:13, 
+     Fecha: new Date(1995,02,24) },
+    
     { Nombre: "El padrino", Director: "Francis Ford Coppola", Categoria: "Crimen", ActoresEstrella: ["Al Pacino", "Marlon Brando"], Valoracion: 9.2, Vista: false, Edad:18, Fecha: new Date(1972,09,21) },
     { Nombre: "El caballero oscuro", Director: "Christopher Nolan", Categoria: "Accion", ActoresEstrella: ["Christian Bale", "Heath Ledger"], Valoracion: 9, Vista: false, Edad: 12, Fecha: new Date(2008,07,14) },
     { Nombre: "12 hombres sin piedad", Director: "Sidney Lumet", Categoria: "Crimen", ActoresEstrella: ["Henry Fonda", "Lee J. Cobb"], Valoracion: 9, Vista: false, Edad: 0, Fecha: new Date(1957,03,11) },
